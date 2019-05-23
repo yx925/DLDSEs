@@ -1,0 +1,11 @@
+pip install --upgrade pip
+
+conda config --add channels conda-forge
+conda config --add channels rdkit
+conda config --add channels numba
+conda config --add channels anaconda
+conda config --add channels anaconda-fusion
+conda config --add channels defaults
+
+conda install backports.functools_lru_cache=1.5 blas=1.0 gettext=0.19.8.1 glib icu=58.2 kiwisolver=1.0.1 libffi=3.2.1 libpng=1.6.34 libtiff=4.0.9 networkx=2.1 patsy=0.5.0 pcre=8.41 psutil=5.4.5 pyqt=4.11.4 qt=4.8.7 qtconsole=4.3.1 seaborn=0.9.0 statsmodels=0.9.0 zlib=1.2.11 pycairo=1.16.3 backports=1.0 backports_abc bzip2=1.0.6 cairo cffi=1.10.0 cycler=0.10.0 decorator=4.1.2 enum34=1.1.6 fontconfig=2.12.1 freetype=2.5.5 funcsigs=1.0.2 functools32=3.2.3.2 get_terminal_size=1.0.0 ipykernel=4.6.1 ipython=5.3.0 ipython_genutils=0.2.0 jbig=2.1=0 jpeg=9b=0 jupyter_client=5.1.0 jupyter_core=4.3.0 libiconv=1.14=0 libxml2=2.9.4=0 matplotlib=1.5.1 mpmath=0.19 olefile=0.44 openssl=1.0.2j=0 pandas=0.19.2 path.py=10.3.1 pathlib2=2.3.0 pexpect=4.2.1 pickleshare=0.7.4 pillow=4.2.1 pip=8.1.2 pixman=0.34.0=0 prompt_toolkit=1.0.15 ptyprocess=0.5.2 pycparser=2.18 pygments=2.2.0 pyparsing=2.1.4 python=2.7.12=1 python-dateutil=2.6.0 pytz=2017.2 pyzmq=16.0.2 readline=6.2=2 scandir=1.5 scipy=0.18.1 setuptools=27.2.0 simplegeneric=0.8.1 singledispatch=3.4.0.3 sip=4.18 six=1.10.0 sqlite=3.13.0=0 ssl_match_hostname=3.5.0.1 subprocess32=3.2.7 sympy=1.1.1 tk=8.5.18=0 tornado=4.5.2 tqdm=4.15.0 traitlets=4.3.2 wcwidth=0.1.7 wheel=0.29.0 xz=5.2.3=0 llvmlite=0.22.0 rdkit=2017.03.3
+pip install numpy==1.15 backports.shutil-get-terminal-size==1.0.0 backports.ssl-match-hostname==3.5.0.1 backports.weakref==1.0rc1 bleach==1.5.0 click==6.7 dill==0.2.7.1 futures==3.2.0 h5py==2.8.0 html5lib==0.9999999 itsdangerous==0.24 jinja2==2.10 jsonschema==2.6.0 keras==2.1.5 keras-applications==1.0.4 keras-preprocessing==1.0.2 markdown==3.0.1 markupsafe==1.0 mmh3==2.3.1 mock==2.0.0 multiprocess==0.70.5 nbformat==4.3.0 nibabel==2.1.0 nilearn==0.2.6 nose==1.3.7 pathos==0.2.1 pbr==4.2.0 pox==0.2.3 ppft==1.6.4.7.1 protobuf==3.6.1 pycallgraph==1.0.1 pydot==1.2.4 pyyaml==3.13 requests==2.13.0 scikit-learn==0.19.1 sklearn==0.0 tensorflow==1.4.0 tensorflow-tensorboard==0.4.0 theano==0.9.0 werkzeug==0.14.1 xlrd==1.1.0
